@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "Get-Greeting Function Test",
+      "setup": "",
+      "run": "powershell -ExecutionPolicy Bypass -File test-student-script.ps1",
+      "input": "",
+      "output": "",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
