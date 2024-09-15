@@ -1,0 +1,15 @@
+name: Autograding
+
+on: [push]
+
+permissions:
+  contents: read
+
+jobs:
+  Autograding:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Autograding
+        uses: education/autograding@v1
